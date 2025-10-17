@@ -135,7 +135,7 @@ int main() {
         // Estado q4: Avanza hacia la derecha sobre todos los símbolos hasta el final.
         {"q4", '1', "q4", '1', DER},
         {"q4", '0', "q4", '0', DER},
-        {"q4", '_', "q5", '0', IZQ},
+        {"q4", '_', "q5", '_', IZQ},
 
         // Estado q5: Ha llegado al final. Escribe los dos últimos '1's para completar 2X+1.
         {"q5", '0', "q6", '1', IZQ},
